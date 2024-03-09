@@ -1,0 +1,69 @@
+/* colors */
+
+:root {
+  --black: #1c1b1b;
+  --white: #fbfbfb;
+  --primary: #e28413;
+  --secondary: #f56416;
+  --third: #dd4b1a;
+}
+
+/* Typography */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Buttons */
+
+.btn {
+  filter: drop-shadow(2px 2px 5px #000000);
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--white);
+  border-color: var(--secondary);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary);
+  color: var(--white);
+  border-color: var(--primary);
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.25rem var(--primary);
+  background-color: var(--secondary);
+  color: var(--white);
+  border-color: var(--primary);
+}
+
+.btn-primary:active {
+  background-color: var(--secondary);
+  color: var(--white);
+  border-color: var(--primary);
+}
+
+.btn-primary.dipped {
+  box-shadow: 0 0 0 0.25rem var(--primary);
+}
